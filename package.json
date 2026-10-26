@@ -1,0 +1,12 @@
+{
+  "name": "patilbrothers-php-assets",
+  "private": true,
+  "scripts": {
+    "build:css": "@tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/tailwind.generated.css --minify",
+    "watch:css": "@tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/tailwind.generated.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
